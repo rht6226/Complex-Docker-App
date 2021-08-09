@@ -60,7 +60,7 @@ class Fib extends Component {
                     <label>Enter your index : </label>
                     <input 
                         value={this.state.index}
-                        onChange={e => this.setState({ index: event.target.value })}
+                        onChange={e => this.setState({ index: e.target.value })}
                     />
                     <button>Submit</button>
                 </form>
