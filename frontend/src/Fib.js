@@ -33,6 +33,9 @@ class Fib extends Component {
         });
 
         this.setState({ index : '' });
+
+        console.log(this.seenIndexes);
+        console.log(this.values);
     };
 
     renderSeenIndexes() {
